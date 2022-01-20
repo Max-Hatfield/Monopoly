@@ -15,7 +15,8 @@ chance.add(new Card("You won the lottery, collect $250"));
 public static void landChance()
 {
 int chanceNum = (int)(Math.random()*3);
-switch(chanceNum)
+int test =2;
+switch(test)
 {
 	
 	case 0:
@@ -42,7 +43,8 @@ switch(chanceNum)
 	case 2:
 			{
 				System.out.println("Advance to Boardwalk!");
-				Monopoly.player1.setLocation(39);
+				Monopoly.player1.setLocation(40);
+				Monopoly.checkLocation();
 				break;
 			}
 	
