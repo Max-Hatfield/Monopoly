@@ -42,9 +42,9 @@ switch(test)
 			}
 	case 2:
 			{
-				System.out.println("Advance to Boardwalk!");
+			System.out.println("Advance to Boardwalk!");
 				Monopoly.player1.setLocation(40);
-				Monopoly.checkLocation();
+Monopoly.checkLocation();
 				break;
 			}
 	
